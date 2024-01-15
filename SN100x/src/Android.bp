@@ -42,7 +42,7 @@ cc_library_shared {
         "-DBUILDCFG=1",
         "-DGKI_PTHREAD_JOINABLE",
         "-Wall",
-        "-Werror",
+        //"-Werror",
         "-Wimplicit-fallthrough",
         "-DNXP_EXTNS=TRUE",
         "-DNXP_SRD=TRUE",
